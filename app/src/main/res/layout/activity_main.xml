@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dist"
+        android:layout_width="208dp"
+        android:layout_height="35dp"
+        android:text="You are safe."
+        android:textAlignment="center"
+        android:textSize="22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <TextView
+        android:id="@+id/Notif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stay 6 feet away from others"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/ButtA"
+        android:layout_width="133dp"
+        android:layout_height="66dp"
+        android:text="Show Map"
+        android:onClick="openMap"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/ButtB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Crowd"
+        android:onClick="Report"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <Button
+        android:id="@+id/ButtC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Crowd"
+        android:onClick="clear"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <Button
+        android:id="@+id/Emergency"
+        android:layout_width="137dp"
+        android:layout_height="75dp"
+        android:text="Emergency"
+        android:onClick="emergency"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
